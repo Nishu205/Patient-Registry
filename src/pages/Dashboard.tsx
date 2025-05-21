@@ -17,7 +17,7 @@ const Dashboard: React.FC = () => {
           setPatientCount(patients.length);
           setIsError(null);
         } catch (err) {
-          setIsError('Failed to load dashboard data:');
+          setIsError('Failed to load dashboard data. Please reopen the app using the same link in a new tab.');
         }
       }
     };

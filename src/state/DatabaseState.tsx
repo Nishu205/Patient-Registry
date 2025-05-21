@@ -27,7 +27,7 @@ export const DatabaseProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         setisConfigured(true);
         setError(null);
       } catch (err) {
-        setError('Database initialization failed. Please refresh the page to retry');
+        setError('Database initialization failed. Try refreshing the page or opening the link in a new tab.');
       } finally {
         setisDataLoading(false);
       }

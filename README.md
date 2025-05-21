@@ -140,6 +140,11 @@ In the project directory, you can run:
 - Lucide – Icon set for a clean interface
 - Tailwind CSS – Utility-first styling framework
 
+## Challenges Faced
+
+- Managing Local Storage and Data Integrity: Building a fully client-side database solution with pglite presented significant challenges. Properly setting up and initializing the database, managing data serialization, and guaranteeing persistence across reloads demanded careful design and thorough testing to avoid data loss or corruption.
+- Tailwind responsiveness: Achieving consistent styling across screen sizes involved fine-tuning Tailwind’s responsive utility classes, especially when working with dynamic components like forms and modals.
+
 ## Acknowledgements
 
 - [PGlite Docs](https://pglite.dev/docs) for providing in-browser PostgreSQL functionality
